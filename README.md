@@ -9,6 +9,5 @@ pip download -d ./packages -r requirements.txt
 
 ## install packages for Ubuntu 20.04 from folder
 ```
-pip install -r requirements.txt --find-links file://./packages
+pip install -r requirements.txt --find-links "file://$PWD/packages"
 ```
-
